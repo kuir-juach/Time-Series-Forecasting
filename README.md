@@ -1,10 +1,13 @@
 **Beijing Air Quality Forecasting**
 **Project Overview**
+
 This project is part of the Machine Learning Techniques I course and focuses on forecasting PM2.5 air pollution levels in Beijing using Recurrent Neural Networks (RNNs) and Long Short-Term Memory (LSTM) models.
 
 Accurately forecasting PM2.5 concentrations is crucial for supporting environmental policies, protecting public health, and enabling timely interventions.
 
 **Objectives**
+
+
 Preprocess sequential air quality and meteorological datasets.
 
 Design and train RNN/LSTM models tailored for time-series forecasting.
@@ -16,9 +19,11 @@ Evaluate model accuracy using standard metrics.
 Generate final predictions of PM2.5 levels.
 
 **Best Performing Model**
+
 After multiple experiments with different architectures, the following model demonstrated the best performance in minimizing RMSE and maintaining generalization.
 
 **LSTM Architecture**
+
 First LSTM layer with 128 units
 
 Activation: ReLU
@@ -45,15 +50,15 @@ Regularization: L2
 Output layer with 1 unit for PM2.5 prediction
 
 **Training Configuration**
-Optimizer: Adam (learning rate = 0.01)
+Optimizer: Adam (learning rate = 0.001)
 
 Loss Function: Mean Squared Error (MSE)
 
 Evaluation Metric: Root Mean Squared Error (RMSE)
 
-Final Performance (RMSE): 70.44
+Final Performance (RMSE): 70.45
 
-Training Epochs: 20
+Training Epochs: 10
 
 Batch Size: 32
 
@@ -66,7 +71,7 @@ Batch Size: 32
 
 **Setup Instruction**
 1. To run the project locally:
-Clone Repository:
+Clone Repository: https://github.com/kuir-juach/Time-Series-Forecasting.git
 2. Run the Jupyter Notebook. 
 Navigate to the notebook directory and open the model training notebook
 **Contributor**
