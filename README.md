@@ -20,7 +20,7 @@ Accurately forecasting PM2.5 concentrations is crucial for supporting environmen
 
 **Best Performing Model**
 
-After multiple experiments with different architectures, the following model demonstrated the best performance in minimizing RMSE and maintaining generalization.
+- After multiple experiments with different architectures, the following model demonstrated the best performance in minimizing RMSE and maintaining generalization.
 
 **LSTM Architecture**
 
