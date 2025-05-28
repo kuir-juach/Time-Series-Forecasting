@@ -8,33 +8,33 @@ Accurately forecasting PM2.5 concentrations is crucial for supporting environmen
 **Objectives**
 
 
-Preprocess sequential air quality and meteorological datasets.
+-Preprocess sequential air quality and meteorological datasets.
 
-Design and train RNN/LSTM models tailored for time-series forecasting.
+-Design and train RNN/LSTM models tailored for time-series forecasting.
 
-Fine-tune model architectures and hyperparameters for optimal performance.
+-Fine-tune model architectures and hyperparameters for optimal performance.
 
-Evaluate model accuracy using standard metrics.
+-Evaluate model accuracy using standard metrics.
 
-Generate final predictions of PM2.5 levels.
+-Generate final predictions of PM2.5 levels.
 
 **Best Performing Model**
 
-After multiple experiments with different architectures, the following model demonstrated the best performance in minimizing RMSE and maintaining generalization.
+-After multiple experiments with different architectures, the following model demonstrated the best performance in minimizing RMSE and maintaining generalization.
 
 **LSTM Architecture**
 
-First LSTM layer with 128 units
+-First LSTM layer with 128 units
 
-Activation: ReLU
+-Activation: ReLU
 
-Regularization: L2
+-Regularization: L2
 
-Dropout layer (20%)
+-Dropout layer (20%)
 
-Second LSTM layer with 64 units
+-Second LSTM layer with 64 units
 
-Activation: ReLU
+-Activation: ReLU
 
 Regularization: L2
 
