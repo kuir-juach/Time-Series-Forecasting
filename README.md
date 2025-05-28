@@ -20,7 +20,7 @@ Accurately forecasting PM2.5 concentrations is crucial for supporting environmen
 
 **Best Performing Model**
 
--After multiple experiments with different architectures, the following model demonstrated the best performance in minimizing RMSE and maintaining generalization.
+After multiple experiments with different architectures, the following model demonstrated the best performance in minimizing RMSE and maintaining generalization.
 
 **LSTM Architecture**
 
@@ -36,31 +36,31 @@ Accurately forecasting PM2.5 concentrations is crucial for supporting environmen
 
 6. Activation: ReLU
 
-Regularization: L2
+7. Regularization: L2
 
-Dropout layer (20%)
+8. Dropout layer (20%)
 
-Dense Layers
-Dense layer with 32 units
+9. Dense Layers
+10. Dense layer with 32 units
 
-Activation: ReLU
+11. Activation: ReLU
 
-Regularization: L2
+12. Regularization: L2
 
-Output layer with 1 unit for PM2.5 prediction
+13. Output layer with 1 unit for PM2.5 prediction
 
 **Training Configuration**
-Optimizer: Adam (learning rate = 0.001)
+1. Optimizer: Adam (learning rate = 0.001)
 
-Loss Function: Mean Squared Error (MSE)
+2. Loss Function: Mean Squared Error (MSE)
 
-Evaluation Metric: Root Mean Squared Error (RMSE)
+3. Evaluation Metric: Root Mean Squared Error (RMSE)
 
-Final Performance (RMSE): 70.45
+4. Final Performance (RMSE): 70.45
 
-Training Epochs: 10
+5. Training Epochs: 10
 
-Batch Size: 32
+6. Batch Size: 32
 
 **Repository Structure**
 
