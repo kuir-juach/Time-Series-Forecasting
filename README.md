@@ -7,16 +7,15 @@ Accurately forecasting PM2.5 concentrations is crucial for supporting environmen
 
 **Objectives**
 
+- Preprocess sequential air quality and meteorological datasets.
 
-1. Preprocess sequential air quality and meteorological datasets.
+- Design and train RNN/LSTM models tailored for time-series forecasting.
 
-2. Design and train RNN/LSTM models tailored for time-series forecasting.
+- Fine-tune model architectures and hyperparameters for optimal performance.
 
-3. Fine-tune model architectures and hyperparameters for optimal performance.
+- Evaluate model accuracy using standard metrics.
 
-4. Evaluate model accuracy using standard metrics.
-
-5. Generate final predictions of PM2.5 levels.
+- Generate final predictions of PM2.5 levels.
 
 **Best Performing Model**
 
@@ -24,43 +23,43 @@ Accurately forecasting PM2.5 concentrations is crucial for supporting environmen
 
 **LSTM Architecture**
 
-1. First LSTM layer with 128 units
+- First LSTM layer with 128 units
 
-2. Activation: ReLU
+- Activation: ReLU
 
-3. Regularization: L2
+- Regularization: L2
 
-4. Dropout layer (20%)
+- Dropout layer (20%)
 
-5. Second LSTM layer with 64 units
+- Second LSTM layer with 64 units
 
-6. Activation: ReLU
+- Activation: ReLU
 
-7. Regularization: L2
+- Regularization: L2
 
-8. Dropout layer (20%)
+- Dropout layer (20%)
 
-9. Dense Layers
-10. Dense layer with 32 units
+- Dense Layers
+- Dense layer with 32 units
 
-11. Activation: ReLU
+- Activation: ReLU
 
-12. Regularization: L2
+- Regularization: L2
 
-13. Output layer with 1 unit for PM2.5 prediction
+- Output layer with 1 unit for PM2.5 prediction
 
 **Training Configuration**
-1. Optimizer: Adam (learning rate = 0.001)
+- Optimizer: Adam (learning rate = 0.001)
 
-2. Loss Function: Mean Squared Error (MSE)
+- Loss Function: Mean Squared Error (MSE)
 
-3. Evaluation Metric: Root Mean Squared Error (RMSE)
+- Evaluation Metric: Root Mean Squared Error (RMSE)
+  
+- Final Performance (RMSE): 70.45
 
-4. Final Performance (RMSE): 70.45
+- Training Epochs: 10
 
-5. Training Epochs: 10
-
-6. Batch Size: 32
+- Batch Size: 32
 
 **Repository Structure**
 
