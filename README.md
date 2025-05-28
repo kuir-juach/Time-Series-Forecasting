@@ -39,7 +39,7 @@ Accurately forecasting PM2.5 concentrations is crucial for supporting environmen
 
 - Dropout layer (20%)
 
-- Dense Layers
+**Dense Layers**
 - Dense layer with 32 units
 
 - Activation: ReLU
